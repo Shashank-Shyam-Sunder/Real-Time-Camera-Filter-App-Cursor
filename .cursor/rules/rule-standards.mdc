@@ -1,0 +1,14 @@
+﻿---
+description: "Ensures that new rules have description and globs automatically filled according to coding-standards"
+globs: ["**/*.mdc"]
+alwaysApply: true
+---
+
+# Rule Standards
+
+All new rules should:
+1. Have a description field filled
+2. Have globs pattern matching coding-standards
+3. Follow the coding-standards structure
+
+@coding-standards

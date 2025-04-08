@@ -1,0 +1,5 @@
+﻿---
+description: "Python files must be located in the src folder"
+globs: ["*.py"]
+alwaysApply: true
+---

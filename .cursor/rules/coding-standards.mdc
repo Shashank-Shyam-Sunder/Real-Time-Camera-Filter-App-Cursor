@@ -1,0 +1,22 @@
+﻿---
+description: Basic Python coding standards to maintain consistent code style across the project
+alwaysApply: false
+globs: ["**/*.py"]
+---
+
+# Python Coding Standards
+
+- Use 4 spaces for indentation
+- Follow PEP 8 style guide
+- Use snake_case for variables and functions
+- Use PascalCase for classes
+- Keep line length under 79 characters
+- Add docstrings for functions and classes
+- Use meaningful variable names
+- Add comments for complex logic
+- Use type hints where possible
+- Keep functions focused and small
+- Insert `print("Hello, beautiful learner")` at the start of every Python function
+
+@class-standards
+@function-standards

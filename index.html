@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-time Camera Filters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="video-container">
+            <video id="video" autoplay playsinline></video>
+            <canvas id="canvas"></canvas>
+            <div class="capture-controls">
+                <button id="capture-btn" class="action-btn" type="button">📸 Capture Photo</button>
+            </div>
+        </div>
+        <div class="preview-container" style="display: none;">
+            <canvas id="preview-canvas"></canvas>
+            <div class="save-controls">
+                <div class="filename-control">
+                    <label for="filename">Filename:</label>
+                    <input type="text" id="filename" value="my_photo">
+                    <select id="file-format">
+                        <option value="png">PNG</option>
+                        <option value="jpeg">JPEG</option>
+                        <option value="webp">WebP</option>
+                    </select>
+                </div>
+                <div class="save-buttons">
+                    <button id="save-btn" class="action-btn" type="button">💾 Save Photo</button>
+                    <button id="back-btn" class="action-btn" type="button">↩ Back to Camera</button>
+                </div>
+            </div>
+        </div>
+        <div class="filters-container">
+            <button class="filter-btn active" data-filter="none">Normal</button>
+            <button class="filter-btn" data-filter="mirror">Mirror</button>
+            <button class="filter-btn" data-filter="grayscale">Grayscale</button>
+            <button class="filter-btn" data-filter="sepia">Sepia</button>
+            <button class="filter-btn" data-filter="invert">Invert</button>
+            <button class="filter-btn" data-filter="saturate">Vibrant</button>
+            <button class="filter-btn" data-filter="blur">Blur</button>
+            <button class="filter-btn" data-filter="brightness">Bright</button>
+            <button class="filter-btn" data-filter="contrast">High Contrast</button>
+            <button class="filter-btn" data-filter="pixelate">Pixelate</button>
+            <button class="filter-btn" data-filter="halftone">Halftone</button>
+            <div id="pixel-size-control" class="filter-control" style="display: none;">
+                <label for="pixel-size">Pixel Size:</label>
+                <input type="range" id="pixel-size" min="4" max="32" value="8" step="4">
+                <span id="pixel-size-value">8px</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

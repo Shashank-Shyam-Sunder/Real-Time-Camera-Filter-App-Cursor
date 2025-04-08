@@ -1,0 +1,7 @@
+﻿---
+description: "Requires every function to have a specific comment indicating it was defined by the learner"
+globs: ["*.py"]
+alwaysApply: true
+---
+
+# this is function defined by learner 

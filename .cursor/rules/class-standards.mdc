@@ -1,0 +1,7 @@
+﻿---
+description: "Requires every class to have a specific comment indicating it was defined by the learner"
+globs: ["*.py"]
+alwaysApply: true
+---
+
+# this is class defined by learner 
