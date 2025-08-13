@@ -1,0 +1,22 @@
+# Real-Time Camera Filter App Requirements
+# This is a pure HTML5/CSS3/JavaScript web application
+# No Python or external dependencies are required
+
+# For development and testing, you may want to use a local HTTP server:
+# Python 3: python -m http.server
+# Python 2: python -m SimpleHTTPServer  
+# Node.js: npx http-server
+# PHP: php -S localhost:8000
+
+# Browser Requirements:
+# - Modern web browser with MediaDevices API support
+# - Camera access permissions
+# - JavaScript enabled
+
+# Recommended browsers:
+# - Google Chrome (latest)
+# - Mozilla Firefox (latest) 
+# - Safari (latest)
+# - Microsoft Edge (latest)
+
+# No pip install required - this is a client-side web application
